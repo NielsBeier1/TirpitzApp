@@ -1,0 +1,129 @@
+page-guide {
+  padding: 0;
+  margin: 0;
+    main {
+      width: 1024px;
+      height: 768px;
+      background-color: #ededed;
+      margin: 0;
+      padding: 0;
+      ion-grid {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-image: url("../assets/imgs/Tirpitz-Back-4.jpg");
+        background-size: contain;
+        ion-row {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        ion-col {
+          width: 50%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    ion-col.Left {
+      margin-top: 40px;
+      .ContentLeft {
+        width: 375px;
+        height: 550px;
+        margin-top: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: map-get($colors, TPyellow);
+        margin-left: 80px;
+        .HeadlineLeft {
+          width: 365px;
+          height: auto;
+          h1 {
+            margin: 0;
+            margin-left: 5px !important;
+            color: map-get($colors, TPwhite);
+            font-size: 70px;
+            line-height: 1;
+          }
+        }
+        .IconLeft {
+          width: 150px;
+          height: 150px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+          background-image: url("../assets/imgs/Amber.svg");
+        }
+        .DescriptionLeft {
+          font-size: 29px;
+          color: map-get($colors, TPwhite);
+          margin-left: 10px;
+          margin-right: 10px;
+          p {
+            margin: 0 10 0 0;
+          }
+        }
+      }
+    }
+    ion-col.Right {
+      margin-top: 40px;
+      .ContentRight {
+        width: 375px;
+        height: 550px;
+        margin-top: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: map-get($colors, TPyellow);
+        margin-left: 80px;
+        .HeadlineRight {
+          width: 365px;
+          height: auto;
+          h1 {
+            margin-left: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: map-get($colors, TPwhite);
+            font-size: 70px;
+            line-height: 1;
+          }
+        }
+        .IconRight {
+          width: 150px;
+          height: 150px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+          background-image: url("../assets/imgs/Question.svg");
+          background-repeat: no-repeat;
+        }
+        .DescriptionRight {
+          font-size: 29px;
+          color: map-get($colors, TPwhite);
+          margin-left: 10px;
+          margin-right: 10px;
+          p {
+            margin: 0 10 0 0;
+          }
+        }
+      }
+      .Button {
+        width: 250px;
+        margin-left: 205px;
+        margin-top: 35px;
+        border-style: solid;
+        border-width: 5px;
+        background-color: rgba(248, 215, 71, 0.10);
+        box-shadow: 0 0 25px #f8d747;
+        border-color: map-get($colors, TPyellow);
+        #Button {
+          font-size: 5em;
+          text-align: center;
+          color: map-get($colors, TPyellow);
+        }
+      }
+    }
+  }

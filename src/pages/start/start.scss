@@ -1,0 +1,97 @@
+page-start {
+  padding: 0;
+  margin: 0;
+  ion-content {
+    padding: 0;
+    margin: 0;
+    main {
+      width: 1024px;
+      height: 768px;
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+      ion-grid {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-image: url("../assets/imgs/Tirpitz-Back-3.jpg");
+        background-size: contain;
+        ion-row {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        ion-col {
+          width: 50%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    ion-col.Info {
+      margin-top: 40px;
+      .Content {
+        width: 365px;
+        height: auto;
+        margin-left: 80px;
+        .Logo {
+          width: 375px;
+          height: 100px;
+          background-image: url("../assets/imgs/Tirpitz-Logo.svg");
+          background-repeat: no-repeat;
+          background-size: 375px auto;
+          background-position: center;
+        }
+        #Info {
+          width: 375px;
+          height: 475px;
+          margin-top: 5px;
+          border-style: solid;
+          border-width: 5px;
+          border-color: map-get($colors, TPyellow);
+          .Slogan {
+            width: 365px;
+            height: 250px;
+            background-image: url("../assets/imgs/Slogan.svg");
+            background-repeat: no-repeat;
+            background-size: 345px auto;
+            margin-top: 10px;
+            margin-left: 8px;
+          }
+          .Introduction {
+            width: 100%;
+            height: auto;
+            margin-top: -25px;
+            p {
+              font-size: 27px;
+              color: map-get($colors, TPwhite);
+              margin-left: 10px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    ion-col.Button {
+      #Button {
+        width: 200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: map-get($colors, TPyellow);
+        background-color: rgba(248, 215, 71, 0.10);
+        box-shadow: 0 0 25px #f8d747;
+        color: map-get($colors, TPyellow);
+        font-size: 5em;
+        text-align: center;
+      }
+    }
+  }
+}

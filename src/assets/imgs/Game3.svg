@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13919 270 200 200">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #f8d747;
+      }
+
+      .cls-1 {
+        stroke-width: 3.5px;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_241" data-name="Group 241" transform="translate(4518 -1659)">
+    <g id="Group_240" data-name="Group 240" transform="translate(9421.627 1979.979)">
+      <path id="Path_60" data-name="Path 60" class="cls-1" d="M0,6.371,74.078,0" transform="translate(-0.001 71.068) rotate(-30)"/>
+      <path id="Path_61" data-name="Path 61" class="cls-1" d="M0,45.828,36.166,17.071,32.916.694,67.027,0,48.266,18.511l-9.232,9.107-6.611-6.612" transform="translate(112.42 0) rotate(45)"/>
+      <path id="Path_62" data-name="Path 62" class="cls-1" d="M12.309,1.4,0,0" transform="translate(127.088 35.837) rotate(45)"/>
+      <path id="Path_63" data-name="Path 63" class="cls-1" d="M0,0,7.48,16.385" transform="translate(144.852 30.256) rotate(45)"/>
+      <line id="Line_1" data-name="Line 1" class="cls-2" y1="15.111" transform="translate(76.064 2.021)"/>
+      <line id="Line_2" data-name="Line 2" class="cls-2" y1="16" transform="translate(95.861 11.475) rotate(45)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-2" x1="11.085" y1="10.768" transform="translate(57.463 12.021)"/>
+      <line id="Line_7" data-name="Line 7" class="cls-2" x1="11.085" y1="10.768" transform="translate(85.463 40.021)"/>
+      <line id="Line_3" data-name="Line 3" class="cls-2" x2="10" y2="10" transform="translate(76.064 45.416) rotate(45)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-2" y2="16" transform="translate(67.576 39.759) rotate(45)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-2" x1="10" y2="10" transform="translate(50.85 24.203) rotate(45)"/>
+    </g>
+    <g id="Ellipse_12" data-name="Ellipse 12" class="cls-3" transform="translate(9401 1929)">
+      <circle class="cls-4" cx="100" cy="100" r="100"/>
+      <circle class="cls-5" cx="100" cy="100" r="97.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+page-languages {
+  main {
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    #BackgroundImage {
+      width: 100%;
+      height: 100%;
+      background-image: url("../assets/imgs/Tirpitz-Back-7.jpg");
+      background-size: 1124px;
+      background-position: right;
+      position: relative;
+      z-index: 0;
+    }
+    ion-grid {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0 !important;
+      position: relative;
+      z-index: 1;
+      ion-row.Spacer {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    ion-row.Tirpitz {
+      width: 100%;
+      height: 20%;
+      position: relative;
+      z-index: 3;
+      .Logo {
+        background-image: url("../assets/imgs/Tirpitz-Logo.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 3;
+        width: 550px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    ion-row.Options {
+      width: 100%;
+      height: 20%;
+      .Languages {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        #Dansk {
+          background-image: url("../assets/imgs/Dansk.svg");
+          width: 150px;
+          height: 150px;
+          box-shadow: 0 0 25px #f8d747;
+        }
+        #Deutsch {
+          background-image: url("../assets/imgs/Deutsch.svg");
+          width: 150px;
+          height: 150px;
+          margin: 0 50px;
+          box-shadow: 0 0 25px #f8d747;
+        }
+        #English {
+          background-image: url("../assets/imgs/English.svg");
+          width: 150px;
+          height: 150px;
+          box-shadow: 0 0 25px #f8d747;
+        }
+      }
+    }
+  }
+}

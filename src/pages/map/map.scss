@@ -1,0 +1,68 @@
+page-map {
+  main {
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    ion-grid {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0 !important;
+      background-image: url("../assets/imgs/Map.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      ion-row {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+        padding: 0;
+      }
+      ion-row.Row1 {
+        .Button {
+          width: 150px;
+          height: 150px;
+          margin-left: auto;
+          margin-top: 10px;
+          margin-right: 10px;
+          justify-content: center;
+          padding-left: 75px;
+          #Button {
+            width: 75px;
+            height: 75px;
+            background-image: url("../assets/imgs/Question.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+      ion-row.Row2 {
+        margin: 0;
+      }
+      ion-row.Row3 {
+        margin: 0;
+      }
+      ion-row.Row4 {
+        margin: 0;
+      }
+      ion-row.Row5 {
+        .Button {
+          width: 150px;
+          height: 150px;
+          margin-left: 500px;
+          margin-right: auto;
+          margin-top: auto;
+          justify-content: center;
+          padding-left: 75px;
+          #Button {
+            width: 75px;
+            height: 75px;
+            background-image: url("../assets/imgs/Amber.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+page-home {
+  main {
+    width: 1024px;
+    height: 768px;
+  }
+  .Tirpitz {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-image: url("../assets/imgs/Tirpitz-Back-2.jpg");
+    background-size: 1124px;
+    background-position: right;
+    position: relative;
+  }
+  img {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
